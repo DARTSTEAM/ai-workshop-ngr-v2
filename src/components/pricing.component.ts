@@ -14,7 +14,7 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
         <p class="text-xl text-gray-500 font-light">De la operación a la creación del futuro</p>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12 text-center items-stretch">
         
         <!-- Option 1: Media Jornada -->
         <div class="bg-white rounded-3xl p-8 border border-gray-100 shadow-lg flex flex-col">
@@ -25,7 +25,7 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
           <p class="text-sm text-gray-500 mb-6 flex-grow">
             Introducción estratégica para entender qué es posible y cómo impactar el área sin fricción.
           </p>
-          <ul class="space-y-3 mb-8 text-sm text-gray-600">
+          <ul class="space-y-3 mb-8 text-sm text-gray-600 text-left mx-auto">
             <li class="flex items-center gap-2">
               <div class="w-1.5 h-1.5 rounded-full bg-[#F4EB33]"></div>
               Visión estratégica de IA
@@ -38,21 +38,21 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
         </div>
 
         <!-- Option 2: Jornada Completa (Recommended/Main) -->
-        <div class="bg-[#7E6E94] text-white rounded-3xl p-8 border border-[#7E6E94] shadow-xl relative transform lg:-translate-y-4">
+        <div class="bg-[#7E6E94] text-white rounded-3xl p-8 border border-[#7E6E94] shadow-xl relative transform lg:-translate-y-4 flex flex-col">
           <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#F4EB33] text-[#7E6E94] text-xs font-black px-4 py-1 rounded-full uppercase tracking-widest">
             RECOMENDADO
           </div>
           <div class="mb-6">
             <h3 class="text-xl font-bold">Jornada Completa</h3>
             <p class="text-[#D8B4E2] font-semibold">Estratégica + Técnica (8h)</p>
-            <div class="mt-4 flex items-baseline gap-1">
-              <span class="text-4xl font-black text-[#F4EB33]">USD 12.000</span>
+            <div class="mt-4 flex items-baseline gap-1 justify-center">
+              <span class="text-4xl font-black text-[#F4EB33]">USD 6.500</span>
             </div>
           </div>
           <p class="text-sm text-gray-100 mb-6 font-light">
             Visión 360°, casos de uso y fundamentos técnicos para diseñar y operar automatizaciones.
           </p>
-          <ul class="space-y-3 mb-8 text-sm text-gray-100">
+          <ul class="space-y-3 mb-8 text-sm text-gray-100 text-left mx-auto">
             <li class="flex items-center gap-2">
               <div class="w-1.5 h-1.5 rounded-full bg-[#F4EB33]"></div>
               90% con agente funcional
@@ -77,7 +77,7 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
           <p class="text-sm text-gray-500 mb-6 flex-grow">
             Profundización en implementación, personalización y escala de agentes complejos.
           </p>
-          <ul class="space-y-3 mb-8 text-sm text-gray-600">
+          <ul class="space-y-3 mb-8 text-sm text-gray-600 text-left mx-auto">
             <li class="flex items-center gap-2">
               <div class="w-1.5 h-1.5 rounded-full bg-[#F4EB33]"></div>
               Arquitecturas complejas
@@ -95,7 +95,7 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
       <div class="bg-gradient-to-br from-[#FCF9F7] to-[#F1F5F9] rounded-3xl p-10 border border-gray-100">
         <div class="flex flex-col md:flex-row gap-12 items-center">
           <div class="md:w-1/2">
-            <h3 class="text-2xl font-bold text-[#7E6E94] mb-6">¿Qué te llevas?</h3>
+            <h3 class="text-2xl font-bold text-[#7E6E94] mb-6 text-left">¿Qué te llevas?</h3>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-gray-600">
               <div class="p-4 bg-white rounded-xl shadow-sm border border-gray-50">
                 <strong class="block text-gray-800 mb-1">Playbook</strong>

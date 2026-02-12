@@ -19,11 +19,11 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
         <div class="bg-white rounded-3xl p-10 border border-gray-100 shadow-xl relative overflow-hidden group">
           <div class="absolute -right-10 -top-10 w-32 h-32 bg-[#F4EB33]/10 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
           
-          <div class="flex items-center gap-4 mb-8">
-            <span class="text-5xl font-black text-[#F4EB33]">1️⃣</span>
+          <div class="flex items-center gap-6 mb-8">
+            <span class="text-7xl font-black text-[#F4EB33]/30 select-none">01</span>
             <div>
-              <h3 class="text-2xl font-bold text-gray-800">Introducción a IA</h3>
-              <p class="text-[#7E6E94] font-semibold">Aplicada a operaciones</p>
+              <h3 class="text-2xl font-bold text-gray-800 leading-tight">Introducción a AI</h3>
+              <p class="text-[#7E6E94] font-semibold text-sm">Base estratégica y conceptual</p>
             </div>
           </div>
 
@@ -63,11 +63,11 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
         <div class="bg-white rounded-3xl p-10 border border-gray-100 shadow-xl relative overflow-hidden group">
           <div class="absolute -right-10 -bottom-10 w-32 h-32 bg-[#F4EB33]/10 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
           
-          <div class="flex items-center gap-4 mb-8">
-            <span class="text-5xl font-black text-[#F4EB33]">2️⃣</span>
+          <div class="flex items-center gap-6 mb-8">
+            <span class="text-7xl font-black text-[#F4EB33]/30 select-none">02</span>
             <div>
-              <h3 class="text-2xl font-bold text-gray-800">Full Hands-On</h3>
-              <p class="text-[#7E6E94] font-semibold">Ejecución práctica con n8n</p>
+              <h3 class="text-2xl font-bold text-gray-800 leading-tight">Full Hands-On</h3>
+              <p class="text-[#7E6E94] font-semibold text-sm">Ejecución práctica con n8n</p>
             </div>
           </div>
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,20 +15,24 @@
       background-color: #FCF9F7;
       color: #000000;
     }
+
     .hike-gradient-text {
       background: linear-gradient(90deg, #7E6E94 0%, #D8B4E2 100%);
       -webkit-background-clip: text;
+      background-clip: text;
       -webkit-text-fill-color: transparent;
     }
+
     .hike-gradient-bg {
       background: linear-gradient(135deg, #7E6E94 0%, #4a4059 100%);
     }
+
     /* Smooth scrolling */
     html {
       scroll-behavior: smooth;
     }
   </style>
-<script type="importmap">
+  <script type="importmap">
 {
   "imports": {
     "rxjs": "https://esm.sh/rxjs@^7.8.2?conditions=es2015",
@@ -45,9 +50,11 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+
 </head>
+
 <body>
   <app-root></app-root>
 </body>
+
 </html>
