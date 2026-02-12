@@ -34,17 +34,11 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
           
           <!-- Card Container -->
           <div class="relative bg-white p-12 rounded-3xl shadow-xl border border-white/50 backdrop-blur-sm transform -rotate-2 hover:rotate-0 transition-transform duration-500 w-full max-w-lg flex items-center justify-center min-h-[350px]">
-             <div class="text-center flex flex-col items-center gap-6">
-               <img 
-                 src="https://nexosmasuno.com/wp-content/uploads/2023/04/NGR.png" 
-                 alt="NGR Logo" 
-                 class="h-24 w-auto object-contain"
-               />
-               <div class="flex flex-col items-center">
-                 <span class="text-6xl font-black text-[#7E6E94] leading-tight">HIKE</span>
-                 <div class="text-[#F4EB33] font-bold tracking-[0.2em] mt-1">AI WORKSHOP</div>
-               </div>
-             </div>
+             <img 
+               src="https://nexosmasuno.com/wp-content/uploads/2023/04/NGR.png" 
+               alt="NGR Logo" 
+               class="w-full h-auto object-contain max-h-[300px]"
+             />
           </div>
         </div>
       </div>
