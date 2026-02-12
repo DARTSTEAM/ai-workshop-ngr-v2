@@ -63,23 +63,23 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
             <div class="space-y-6">
               <!-- Contact 1 -->
               <div class="flex items-center gap-4 p-4 bg-white/10 rounded-xl backdrop-blur-sm border border-white/10 hover:bg-white/20 transition-colors">
-                <div class="w-12 h-12 rounded-full bg-[#F4EB33] flex items-center justify-center text-[#7E6E94] font-bold text-xl">
-                  FL
+                <div class="w-12 h-12 rounded-full bg-[#F4EB33] flex items-center justify-center text-[#7E6E94] font-bold text-xl text-center">
+                  JP
                 </div>
                 <div>
-                  <h4 class="font-bold text-lg">Felipe Ledesma</h4>
-                  <a href="mailto:felipe@abndigital.com.ar" class="text-gray-300 hover:text-white transition-colors text-sm">felipe@abndigital.com.ar</a>
+                  <h4 class="font-bold text-lg">Juan Pablo</h4>
+                  <a href="mailto:juanpablo@hikethecloud.com" class="text-gray-300 hover:text-white transition-colors text-sm">juanpablo@hikethecloud.com</a>
                 </div>
               </div>
 
               <!-- Contact 2 -->
               <div class="flex items-center gap-4 p-4 bg-white/10 rounded-xl backdrop-blur-sm border border-white/10 hover:bg-white/20 transition-colors">
-                <div class="w-12 h-12 rounded-full bg-[#D8B4E2] flex items-center justify-center text-[#7E6E94] font-bold text-xl">
+                <div class="w-12 h-12 rounded-full bg-[#D8B4E2] flex items-center justify-center text-[#7E6E94] font-bold text-xl text-center">
                   SG
                 </div>
                 <div>
                   <h4 class="font-bold text-lg">Santiago Giovanneti</h4>
-                  <a href="mailto:santiago@abndigital.com.ar" class="text-gray-300 hover:text-white transition-colors text-sm">santiago@abndigital.com.ar</a>
+                  <a href="mailto:santiago@hikethecloud.com" class="text-gray-300 hover:text-white transition-colors text-sm">santiago@hikethecloud.com</a>
                 </div>
               </div>
             </div>

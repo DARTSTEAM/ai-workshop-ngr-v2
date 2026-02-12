@@ -19,8 +19,15 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
           <div class="inline-block px-4 py-1 rounded-full border border-[#7E6E94] text-[#7E6E94] text-sm font-semibold tracking-wider uppercase mb-4">
             Propuesta Comercial
           </div>
-          <h1 class="text-5xl lg:text-7xl font-extrabold text-[#000000] leading-tight">
-            AI Workshop <br><span class="hike-gradient-text text-4xl lg:text-6xl">Hike Ecosystem</span>
+          <div class="mb-6">
+            <img 
+              src="https://nexosmasuno.com/wp-content/uploads/2023/04/NGR.png" 
+              alt="NGR Logo" 
+              class="h-20 lg:h-32 w-auto object-contain"
+            />
+          </div>
+          <h1 class="text-4xl lg:text-5xl font-extrabold text-[#000000] leading-tight mt-4">
+            AI Workshop <br><span class="hike-gradient-text">Hike Ecosystem</span>
           </h1>
           <p class="text-xl text-gray-600 max-w-lg font-light">
             Diseñando el futuro del marketing con automatización avanzada y agentes autónomos.

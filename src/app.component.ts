@@ -3,6 +3,7 @@ import { HeaderComponent } from './components/header.component';
 import { ExecutiveSummaryComponent } from './components/executive-summary.component';
 import { BusinessImpactComponent } from './components/business-impact.component';
 import { ImplementationPhasesComponent } from './components/implementation-phases.component';
+import { WorkshopFocusComponent } from './components/workshop-focus.component';
 import { PricingComponent } from './components/pricing.component';
 import { FooterComponent } from './components/footer.component';
 import { SideNavComponent } from './components/side-nav.component';
@@ -17,6 +18,7 @@ import { NextStepsComponent } from './components/next-steps.component';
     ExecutiveSummaryComponent,
     BusinessImpactComponent,
     ImplementationPhasesComponent,
+    WorkshopFocusComponent,
     PricingComponent,
     FooterComponent,
     SideNavComponent,
