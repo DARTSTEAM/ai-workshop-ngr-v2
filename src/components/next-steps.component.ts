@@ -64,10 +64,10 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
               <!-- Contact 1 -->
               <div class="flex items-center gap-4 p-4 bg-white/10 rounded-xl backdrop-blur-sm border border-white/10 hover:bg-white/20 transition-colors">
                 <div class="w-12 h-12 rounded-full bg-[#F4EB33] flex items-center justify-center text-[#7E6E94] font-bold text-xl text-center">
-                  JP
+                  JB
                 </div>
                 <div>
-                  <h4 class="font-bold text-lg">Juan Pablo</h4>
+                  <h4 class="font-bold text-lg">Juan Pablo Brea</h4>
                   <a href="mailto:juanpablo@hikethecloud.com" class="text-gray-300 hover:text-white transition-colors text-sm">juanpablo@hikethecloud.com</a>
                 </div>
               </div>

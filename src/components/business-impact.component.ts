@@ -8,9 +8,9 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
     '[id]': 'id()'
   },
   template: `
-    <section class="container mx-auto px-6 mb-24 pt-20 -mt-20">
+    <section class="container mx-auto px-6 mb-12 pt-20 -mt-20">
       <div class="text-center mb-16">
-        <h2 class="text-3xl font-bold text-[#7E6E94] mb-4">Solución: AI for Marketing</h2>
+        <h2 class="text-3xl font-bold text-[#7E6E94] mb-4">Transformación Digital</h2>
         <p class="text-xl text-gray-500 font-light">Activando el poder del stack de Google para transformar su operación</p>
       </div>
 
