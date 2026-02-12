@@ -17,10 +17,10 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
         <!-- Block 1 -->
         <div class="bg-white rounded-3xl p-10 border border-gray-100 shadow-xl relative overflow-hidden group">
-          <div class="absolute -right-10 -top-10 w-32 h-32 bg-[#F4EB33]/10 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
+          <div class="absolute -right-10 -top-10 w-32 h-32 bg-[#7E6E94]/10 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
           
           <div class="flex items-center gap-6 mb-8">
-            <span class="text-7xl font-black text-[#F4EB33]/30 select-none">01</span>
+            <span class="text-7xl font-black text-[#7E6E94]/20 select-none">01</span>
             <div>
               <h3 class="text-2xl font-bold text-gray-800 leading-tight">Introducción a AI</h3>
               <p class="text-[#7E6E94] font-semibold text-sm">Base estratégica y conceptual</p>
@@ -52,7 +52,7 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
             </li>
           </ul>
 
-          <div class="mt-8 p-4 bg-[#F4EB33]/5 rounded-2xl border border-[#F4EB33]/20">
+          <div class="mt-8 p-4 bg-[#7E6E94]/5 rounded-2xl border border-[#7E6E94]/20">
             <p class="text-sm text-gray-700 italic font-light">
               "El objetivo es que el equipo entienda dónde genera valor la IA y cómo pensar soluciones escalables."
             </p>
@@ -61,10 +61,10 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
 
         <!-- Block 2 -->
         <div class="bg-white rounded-3xl p-10 border border-gray-100 shadow-xl relative overflow-hidden group">
-          <div class="absolute -right-10 -bottom-10 w-32 h-32 bg-[#F4EB33]/10 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
+          <div class="absolute -right-10 -bottom-10 w-32 h-32 bg-[#7E6E94]/10 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
           
           <div class="flex items-center gap-6 mb-8">
-            <span class="text-7xl font-black text-[#F4EB33]/30 select-none">02</span>
+            <span class="text-7xl font-black text-[#7E6E94]/20 select-none">02</span>
             <div>
               <h3 class="text-2xl font-bold text-gray-800 leading-tight">Full Hands-On</h3>
               <p class="text-[#7E6E94] font-semibold text-sm">Ejecución práctica con n8n</p>
@@ -78,22 +78,22 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
               <p class="text-sm text-gray-600">Cada equipo desarrolla su automatización y presenta:</p>
               <ul class="mt-3 grid grid-cols-2 gap-2 text-xs">
                 <li class="flex items-center gap-2">
-                  <div class="w-1.5 h-1.5 rounded-full bg-[#F4EB33]"></div> <span class="text-gray-600">Problema abordado</span>
+                  <div class="w-1.5 h-1.5 rounded-full bg-[#7E6E94]"></div> <span class="text-gray-600">Problema abordado</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <div class="w-1.5 h-1.5 rounded-full bg-[#F4EB33]"></div> <span class="text-gray-600">Solución diseñada</span>
+                  <div class="w-1.5 h-1.5 rounded-full bg-[#7E6E94]"></div> <span class="text-gray-600">Solución diseñada</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <div class="w-1.5 h-1.5 rounded-full bg-[#F4EB33]"></div> <span class="text-gray-600">Flujo construido</span>
+                  <div class="w-1.5 h-1.5 rounded-full bg-[#7E6E94]"></div> <span class="text-gray-600">Flujo construido</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <div class="w-1.5 h-1.5 rounded-full bg-[#F4EB33]"></div> <span class="text-gray-600">Resultado en vivo</span>
+                  <div class="w-1.5 h-1.5 rounded-full bg-[#7E6E94]"></div> <span class="text-gray-600">Resultado en vivo</span>
                 </li>
               </ul>
             </div>
           </div>
 
-          <div class="mt-8 p-4 bg-[#F4EB33]/5 rounded-2xl border border-[#F4EB33]/20">
+          <div class="mt-8 p-4 bg-[#7E6E94]/5 rounded-2xl border border-[#7E6E94]/20">
             <p class="text-sm text-gray-700 italic font-light">
               "El objetivo es terminar el workshop mostrando resultados concretos y aplicables desde el día siguiente."
             </p>
