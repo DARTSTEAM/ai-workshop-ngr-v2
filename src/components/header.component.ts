@@ -35,7 +35,7 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
           <!-- Card Container -->
           <div class="relative bg-white p-12 rounded-3xl shadow-xl border border-white/50 backdrop-blur-sm transform -rotate-2 hover:rotate-0 transition-transform duration-500 w-full max-w-lg flex items-center justify-center min-h-[350px]">
              <img 
-               src="https://nexosmasuno.com/wp-content/uploads/2023/04/NGR.png" 
+               src="https://s3.amazonaws.com/media.greatplacetowork.com/peru/best-workplaces-for-sustainable-management/2024/ngr/logo.png" 
                alt="NGR Logo" 
                class="w-full h-auto object-contain max-h-[300px]"
              />
