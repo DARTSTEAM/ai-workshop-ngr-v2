@@ -13,10 +13,10 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
         </div>
         
         <div class="text-sm text-gray-500 text-center md:text-right">
-          <p>© 2026 Hike. Propuesta confidencial para KOA.</p>
+          <p>© 2026 Hike. Propuesta confidencial.</p>
         </div>
       </div>
     </footer>
   `
 })
-export class FooterComponent {}
+export class FooterComponent { }
