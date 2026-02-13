@@ -12,9 +12,12 @@ import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
       
       <!-- Hike Logo Header -->
       <div class="mb-4 px-4 pt-2 pb-2 border-b border-gray-100 flex justify-center">
-         <div class="flex items-center gap-1 select-none">
-           <span class="font-extrabold text-2xl text-[#7E6E94] tracking-tight">hike</span>
-           <span class="text-gray-400 font-light text-lg">the cloud.</span>
+         <div class="flex items-center gap-2 select-none">
+           <img src="https://files.slack.com/files-pri/T01Q7LJG952-F0AE67W846N/256.02-03__1_.png?pub_secret=4fad86a427" alt="Hike Logo" class="w-8 h-8 object-contain" />
+           <div class="flex items-center gap-1">
+             <span class="font-extrabold text-2xl text-[#7E6E94] tracking-tight">hike</span>
+             <span class="text-gray-400 font-light text-lg">the cloud.</span>
+           </div>
          </div>
       </div>
       
